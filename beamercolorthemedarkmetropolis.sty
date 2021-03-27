@@ -1,0 +1,34 @@
+% Beamer mtheme
+%
+% Copyright 2014 Matthias Vogelgesang
+% Licensed under CC-BY-SA 4.0 International.
+%
+% The initial template comes from the HSRM beamer theme by Benjamin Weiss, which
+% you can find at https://github.com/hsrmbeamertheme/hsrmbeamertheme.
+%
+
+\ProvidesPackage{beamercolorthememetropolis}
+
+% Colors based on Apple Dark Theme
+% https://codeburst.io/50-shades-of-dark-mode-gray-d3e9907b1194
+
+\definecolor{mBlack}{HTML}{000000}
+\definecolor{mDarkGrey}{HTML}{161618}
+\definecolor{mMediumGrey}{HTML}{212124}
+\definecolor{mLightGrey}{HTML}{818181}
+\definecolor{mWhite}{HTML}{ffffff}
+
+\setbeamercolor{background canvas}{bg=mBlack}
+\setbeamercolor{normal text}{fg=mWhite}
+\setbeamercolor{alerted text}{fg=mLightGrey}
+\setbeamercolor{structure}{fg=mWhite}
+\setbeamercolor{palette primary}{fg=mDarkGrey}
+\setbeamercolor{palette secondary}{fg=mMediumGrey}
+\setbeamercolor{palette tertiary}{fg=mWhite, bg=mMediumGrey}
+\setbeamercolor{palette quaternary}{fg=mWhite, bg=mDarkGrey}
+\setbeamercolor{frametitle}{parent=palette quaternary}
+
+\setbeamercolor{page number in head/foot}{fg=mLightGrey}
+
+\mode
+<all>
